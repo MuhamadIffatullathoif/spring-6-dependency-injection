@@ -1,5 +1,8 @@
 package com.iffat.spring6.dependencyinjection.services;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class GreetingServiceImpl implements GreetingService {
 
     @Override
